@@ -38,7 +38,7 @@ function App() {
   };
 
   return (
-    <main className="h-screen flex items-center justify-center overflow-hidden bg-gray-100 px-10">
+    <main className="h-screen flex items-center justify-center overflow-hidden bg-gray-100 px-4">
       <Card className="w-full max-w-xl max-h-2/3 overflow-y-scroll shadow scrollbar-hide relative p-0">
         <CardHeader className="sticky z-[9999] top-0 bg-white py-4 shadow">
           <CardTitle>GitHub Repositories Explorer</CardTitle>
