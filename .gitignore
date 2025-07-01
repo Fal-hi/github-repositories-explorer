@@ -7,12 +7,18 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Dependency directories
+node_modules/
 
-# Editor directories and files
+# Production builds
+/dist
+/dist-ssr
+
+# Environment variables
+.env
+.env.*.local
+
+# Editor configs
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -22,3 +28,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Lockfiles (only keep the one you're using)
+package-lock.json
+yarn.lock
+# Keep this if using pnpm:
+pnpm-lock.yaml
