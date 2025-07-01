@@ -16,7 +16,6 @@ export function UserAccordionList({ users }: UserProps) {
   const handleAccordionOpen = async (username: string) => {
     if (repoMap[username]) return;
     setLoading(true);
-
     try {
       const repos = await getUserRepos(username);
       setRepoMap((prev) => ({ ...prev, [username]: repos }));
@@ -50,7 +49,10 @@ export function UserAccordionList({ users }: UserProps) {
             ) : repoMap[user.login]?.length > 0 ? (
               <ul className="flex flex-col gap-2">
                 {repoMap[user.login].map((repo) => (
-                  <li key={repo.id} className="w-full py-2 px-3 border">
+                  <li
+                    key={repo.id}
+                    className="w-full py-2 px-3 border shadow-2xs rounded"
+                  >
                     <div className="flex justify-between items-center">
                       <a
                         href={repo.html_url}
