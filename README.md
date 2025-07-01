@@ -19,7 +19,7 @@ A simple and elegant React + TypeScript application that allows users to search 
 
 ## 🚀 Live Demo
 
-🔗 [View on GitHub Pages](https://your-deployed-link.com)
+🔗 [View on GitHub Pages](https://fal-hi.github.io/github-repositories-explorer)
 
 ---
 
@@ -35,21 +35,26 @@ A simple and elegant React + TypeScript application that allows users to search 
 ## 📦 Getting Started
 
 ### 1. Clone the repository
+
 ```bash
-git clone https://github.com/your-username/github-repo-explorer.git
+git clone https://github.com/Fal-hi/github-repositories-explorer.git
 cd github-repo-explorer
 ```
 
 ### 2. Install dependencies
+
 ```bash
 pnpm install
+```
 
 ### 3. Run the app locally
+
 ```bash
 pnpm run dev
 ```
 
 ### 4. Build for production
+
 ```bash
 pnpm run build
 ```
@@ -71,6 +76,7 @@ VITE_GITHUB_API=https://api.github.com
 ## 🧪 Testing
 
 Testing support is set up using:
+
 - [Vitest](https://vitest.dev/)
 - [React Testing Library](https://testing-library.com/)
 
@@ -85,7 +91,7 @@ pnpm run test
 ```
 src/
 ├── components/         // UI components (SearchBar, UserAccordion, etc.)
-├── hooks/              // API functions (getUserRepos, searchUsers)
+├── hooks/              // API functions (getUserRepos, searchUsers, etc.)
 ├── interface/          // TypeScript interfaces
 ├── App.tsx             // Main application
 └── main.tsx            // Entry point
@@ -95,10 +101,10 @@ src/
 
 ## 📸 Preview
 
-> ![screenshot or gif of app](./public/preview.png)
+> ![screenshot or gif of app](./public/images/app-preview.png)
 
 ---
 
 ## 📄 License
 
-MIT © [Your Name](https://github.com/your-username)
+MIT © [Syaifal Illahi](https://github.com/Fal-hi)
