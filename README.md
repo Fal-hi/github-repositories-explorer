@@ -1,5 +1,3 @@
-// README.md
-
 # 🔍 GitHub Repositories Explorer
 
 A simple and elegant React + TypeScript application that allows users to search GitHub users and view their public repositories. Built using Vite, Tailwind CSS, ShadCN UI, and React Hook Form.
