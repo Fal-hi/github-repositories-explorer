@@ -10,7 +10,7 @@ import { GithubRepo, UserProps } from "@/interface/RepoList";
 import { Star } from "lucide-react";
 import { Skeleton } from "./ui/skeleton";
 
-export function UserAccordionList({ users }: UserProps) {
+export function RepositoryList({ users }: UserProps) {
   const [repoMap, setRepoMap] = useState<Record<string, GithubRepo[]>>({});
   const [loading, setLoading] = useState(false);
   const handleAccordionOpen = async (username: string) => {

@@ -2,7 +2,7 @@ import "./App.css";
 import { SearchBar } from "@/components/SearchBar";
 import { searchUsers } from "@/hooks/useGithubApi";
 import { useState } from "react";
-import { UserAccordionList } from "@/components/RepositoryList";
+import { RepositoryList } from "@/components/RepositoryList";
 import {
   Card,
   CardContent,
@@ -61,7 +61,7 @@ function App() {
               <Skeleton className="h-6" />
             </div>
           ) : (
-            users.length > 0 && <UserAccordionList users={users} />
+            users.length > 0 && <RepositoryList users={users} />
           )}
         </CardContent>
       </Card>

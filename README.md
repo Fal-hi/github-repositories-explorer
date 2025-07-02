@@ -57,6 +57,12 @@ pnpm run dev
 pnpm run build
 ```
 
+### 5. Deploy app
+
+```bash
+pnpm run deploy
+```
+
 ---
 
 ## 🔐 Environment Variables
@@ -93,13 +99,14 @@ src/
 ├── interface/          // TypeScript interfaces
 ├── App.tsx             // Main application
 └── main.tsx            // Entry point
+└── tests/components    // Testing components app
 ```
 
 ---
 
 ## 📸 Preview
 
-> ![screenshot or gif of app](./public/images/app-preview.png)
+> ![screenshot app](./public/images/app-preview.png)
 
 ---
 
